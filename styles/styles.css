@@ -18,7 +18,7 @@
     height: 8px;
     width: 60px;
     background-color: rgb(252, 252, 250);
-    position: absolute;
+    position: right;
      transition: all 0.5s ease;
   }
   
