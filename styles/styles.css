@@ -9,7 +9,7 @@
     grid-template-rows: auto auto 1fr auto;
   }
  nav {
-    background: lightpink;
+    background: rgba(2, 31, 65, 0.952);
     padding: 2rem;
     grid-column: 1 / 3;
   }
