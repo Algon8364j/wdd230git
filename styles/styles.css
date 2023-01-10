@@ -19,7 +19,7 @@
   }
  header{
   display: grid;
-  background-color: rgb(6, 32, 49);
+  background-color: rgb(4, 72, 117);
   padding:1rem;
  }
  h1{
@@ -34,11 +34,26 @@
  }
  h3{
   text-align: center;
+  color: white;
+  
  }
 .card{
-  width: 55%;
-  border: 10px solid #5b6057;
-  box-shadow: 2px 6px 12px #000000;
-  transition: transform 0.5s;
-  box-shadow: 5px 5px 10px #6f7364;
+  width: 500px;
+  height: 350px;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to top,
+    white 30%,
+    white 80%,
+    rgb(4, 72, 117) 80%,
+    rgb(4, 72, 117) 100%
+);
+  border-radius: 15px 15px 15px 15px ;
+  
+  box-shadow: 5px 5px 5px 5px #5b6057;
+  gap: 3rem;
+  padding: 1rem;
+}
+ul{
+  line-height:180%;
 }
