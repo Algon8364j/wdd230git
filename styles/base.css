@@ -53,13 +53,16 @@ h3{
 h1{
     text-align: center;
     margin-top: 2px;
+} 
+h4{
+    text-align: center;
 }
 footer{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    gap: 3rem;
-    text-align: center;
     background: rgb(4, 72, 117);
-   
+    text-align: center;
+    gap: 3rem;
+    padding: 1rem;
   }
