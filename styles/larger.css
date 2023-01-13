@@ -38,8 +38,5 @@
         margin-top: 1rem;
         padding: 1rem;
     }
-    footer {
-        flex-direction: row;
-        background: rgb(4, 72, 117);
-    } 
+
 }
