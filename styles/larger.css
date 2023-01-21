@@ -3,6 +3,7 @@
     nav{
         flex-direction: row-reverse;
         background-color: black;
+        color: azure;
     }   
     header{
         margin: auto;
