@@ -1,21 +1,45 @@
+header{
+    
+    display: grid;
+    grid-template-columns: auto 44px;   
+    background-color: rgb(4, 72, 117);
+   }   
+header button{
+            height: 44px;
+            width: 44px;
+            font-size: 2rem;
+   }
+button::before{
+    content:"\2630"
+}
+button.open::before{
+    content:"\2715"
+}
 nav{
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  text-align: center;
-  background-color: black;
-  padding: 1rem;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right:0px;
+}
+nav.open {
+    display: block;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style: none;
 }
 nav a{
-    text-decoration: none;
-    padding: .1rem;
+    display: block;
+    padding: .75rem 2rem;
     color: azure;
+    border: 1px ;
 }
-header{
-    display: flex;   
-    background-color: rgb(4, 72, 117);
-    padding:1rem;
-   }
+
+
+
    header h1{
     text-align: center;
     margin-top: 70px;
@@ -59,13 +83,13 @@ h4{
     text-align: center;
     color: azure;
 }
-footer{
-    display: flex;
-    flex-direction: column;
+p{
     color: azure;
-    margin-top: 50px;
-    background: rgb(4, 72, 117);
-    text-align: center;
-    gap: 3rem;
-    padding: 1rem;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto;   
+    background-color: rgb(4, 72, 117);
+    margin-top: 5rem;
   }
