@@ -160,6 +160,8 @@ border-radius: 5px 5px 5px 5px;}
   display: none;
 }
 footer{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
   background: linear-gradient(180deg, #031428 30%, #112e51 70%);
 }
 #info{
@@ -175,5 +177,5 @@ footer{
   box-shadow: 1px 1px 1px 1px #6f7364;
 }
 .social{
-  margin-left: 10rem;
+  margin: auto;
 }
