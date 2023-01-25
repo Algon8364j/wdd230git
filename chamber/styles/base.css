@@ -1,8 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Coiny&family=Dancing+Script&family=ZCOOL+QingKe+HuangYou&display=swap");
+body{
+  background-color: #e5eaf7;
+} 
 header {
     display: grid;
     grid-template-columns: auto auto 44px;
     background: linear-gradient(180deg, #031428 30%, #112e51 70%);
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+.logo{
+  height: 70px;
+  width:70px;
 }
 img {
     max-width: 100%;
@@ -56,16 +68,16 @@ nav a,footer h3 {
     font-family: "Coiny", sans-serif;
     font-size: 1em;
 }
-h1{
+header h1{
     text-align: center;
     color: #f1f5ff;
     line-height: 1.25em;
     padding: 0.5em 0.5em;
-    font-size: 2em; 
+    font-size: .90em; 
 } 
 .logo {
-    width: 200px;
-    height: 125px;
+    width: 70px;
+    height: 70px;
     position: relative;
     padding: .50rem .50rem;
   }
@@ -160,6 +172,7 @@ border-radius: 5px 5px 5px 5px;}
   display: none;
 }
 footer{
+  margin-top: 2rem;
   display: grid;
   grid-template-rows: auto auto auto auto;
   background: linear-gradient(180deg, #031428 30%, #112e51 70%);
@@ -175,6 +188,9 @@ footer{
 .icons{
   border-radius: 50px 50px 50px 50px;
   box-shadow: 1px 1px 1px 1px #6f7364;
+  height: 30px;
+  width:30px;
+
 }
 .social{
   margin: auto;
