@@ -109,7 +109,7 @@ header h1{
     
   }
   .join-us,
-  .join {
+  .join, .mbers {
     color: #f1f5ff;
     text-decoration: none;
     background: linear-gradient(180deg, #031428 30%, #112e51 70%);
@@ -119,13 +119,15 @@ header h1{
     border-radius: 5px;
   }
   .join-us:hover,
-  .join:hover {
+  .join:hover, .mbers {
     background-color: #c4fff9;
     box-shadow: 2px 6px 12px #000000;
   }
- .mbers{
-  color: black;
- }
+  .mbers{
+  margin-top:3rem;
+ 
+  }
+ 
  .card1{
   
   background: gray;
