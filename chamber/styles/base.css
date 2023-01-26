@@ -117,13 +117,7 @@ header h1{
  }
  .card1{
   
-  background: linear-gradient(
-    to top,
-    white 30%,
-    white 70%,
-    rgb(4, 72, 117) 70%,
-    rgb(4, 72, 117) 100%
-    );
+  background: gray;
     border-radius: 5px 5px 5px 5px;
 
 }
