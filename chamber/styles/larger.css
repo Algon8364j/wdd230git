@@ -29,8 +29,23 @@
   .home-title{
     font-weight: bolder;
     font-size: 70px;
-    
+    color: white;
  }
+ .join-us,
+.join {
+  color: #f1f5ff;
+  text-decoration: none;
+  background: linear-gradient(180deg, #031428 30%, #112e51 70%);
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.join-us:hover,
+.join:hover {
+  background-color: #c4fff9;
+  box-shadow: 2px 6px 12px #000000;
+}
   .mbers{
     display: none;
   }
